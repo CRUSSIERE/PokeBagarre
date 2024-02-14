@@ -11,7 +11,7 @@ repositories {
 }
 
 javafx {
-  version = "11"
+  version = "17"
   modules = ['javafx.controls']
 }
 
@@ -23,6 +23,7 @@ dependencies {
   implementation 'com.google.code.gson:gson:2.10'
   testImplementation 'org.junit.jupiter:junit-jupiter:5.9.1'
   testImplementation 'org.assertj:assertj-core:3.23.1'
+  testImplementation 'junit:junit:4.13.1'
 }
 
 java {
